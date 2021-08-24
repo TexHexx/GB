@@ -24,6 +24,7 @@ public:
 	double pop() {
 		if (_stackLength < 0) {
 			std::cout << "No elements to pop" << std::endl;
+			return 0;
 		};
 		return _stackArray[_stackLength--];
 	};
